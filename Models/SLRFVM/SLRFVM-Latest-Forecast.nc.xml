@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-05-12T16:15:31.900757</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-05-12T18:15:25.372950</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -294,10 +294,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1893">
+                        <gml:TimePeriod gml:id="d3569">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-05-12T04:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T03:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-05-12T07:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-14T06:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -411,9 +411,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1893e60">
-                           <gml:beginPosition>2014-05-12T04:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T03:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d3569e60">
+                           <gml:beginPosition>2014-05-12T07:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-14T06:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -555,9 +555,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d1893e61">
-                           <gml:beginPosition>2014-05-12T04:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T03:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d3569e61">
+                           <gml:beginPosition>2014-05-12T07:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-14T06:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1272,10 +1272,10 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Mon May 12 12:56:45 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
-Mon May 12 12:56:43 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2014/output/netcdf/201413203.nc temp.nc
-Mon May 12 12:56:25 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
-model started at: 12/05/2014   07:14</gco:CharacterString>
+                  <gco:CharacterString>Mon May 12 15:55:47 2014: ncap2 -O -S /zeus/d2/usl/ncap2.nco temp.nc temp.nc
+Mon May 12 15:55:45 2014: ncks -d node,97,19700 -d node,19703,19719 -d node,19723,19731 -d nele,180,35028 -d nele,35032,35061 -d nele,35067,35083 /zeus/d2/usl/forecast/2014/output/netcdf/201413206.nc temp.nc
+Mon May 12 15:55:29 2014: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 12/05/2014   10:14</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
