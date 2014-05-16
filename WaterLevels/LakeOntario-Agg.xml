@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-05-16T20:15:46.618480</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-05-16T22:20:15.039761</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -58,7 +58,7 @@
                </gmd:dimensionName>
                <gmd:dimensionSize gco:nilReason="unknown"/>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_east">0.19800033569335937</gco:Measure>
+                  <gco:Measure uom="degrees_east">0.1414288112095424</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -69,7 +69,7 @@
                </gmd:dimensionName>
                <gmd:dimensionSize gco:nilReason="unknown"/>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_north">0.19800033569335937</gco:Measure>
+                  <gco:Measure uom="degrees_north">0.1414288112095424</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -79,10 +79,10 @@
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>52</gco:Integer>
+                  <gco:Integer>16</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">105035.0</gco:Measure>
+                  <gco:Measure uom="seconds">86400.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -102,7 +102,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-05-15T23:59:00Z</gco:DateTime>
+                        <gco:Date>2014-03-07</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -355,10 +355,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34935">
+                        <gml:TimePeriod gml:id="d735">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-03-13T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-16T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -377,7 +377,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-05-15T23:59:00Z</gco:DateTime>
+                        <gco:Date>2014-03-07</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -472,9 +472,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34935e58">
-                           <gml:beginPosition>2014-03-13T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d735e56">
+                           <gml:beginPosition>2014-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-16T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -521,7 +521,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:DateTime>2014-05-15T23:59:00Z</gco:DateTime>
+                        <gco:Date>2014-03-07</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -616,9 +616,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d34935e59">
-                           <gml:beginPosition>2014-03-13T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-14T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d735e57">
+                           <gml:beginPosition>2014-05-01T00:00:00Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-16T00:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -664,7 +664,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>station_name</gco:CharacterString>
+                        <gco:CharacterString>timeSeries</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
