@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-05-16T14:15:19.582063</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-05-16T16:15:21.172638</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -49,7 +49,7 @@
    <gmd:spatialRepresentationInfo>
       <gmd:MD_GridSpatialRepresentation>
          <gmd:numberOfDimensions>
-            <gco:Integer>2</gco:Integer>
+            <gco:Integer>3</gco:Integer>
          </gmd:numberOfDimensions>
          <gmd:axisDimensionProperties>
             <gmd:MD_Dimension>
@@ -66,6 +66,17 @@
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize gco:nilReason="unknown"/>
+               <gmd:resolution gco:nilReason="missing"/>
+            </gmd:MD_Dimension>
+         </gmd:axisDimensionProperties>
+         <gmd:axisDimensionProperties>
+            <gmd:MD_Dimension>
+               <gmd:dimensionName>
+                  <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="vertical">vertical</gmd:MD_DimensionNameTypeCode>
+               </gmd:dimensionName>
+               <gmd:dimensionSize>
+                  <gco:Integer>6</gco:Integer>
+               </gmd:dimensionSize>
                <gmd:resolution gco:nilReason="missing"/>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -218,16 +229,25 @@
                   <gco:CharacterString>latitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Wind Stress</gco:CharacterString>
+                  <gco:CharacterString>ocean_sigma/general_coordinate</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Wind Stress</gco:CharacterString>
+                  <gco:CharacterString>ocean_sigma/general_coordinate</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Wind Speed</gco:CharacterString>
+                  <gco:CharacterString>sea_floor_depth_below_geoid</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>Wind Speed</gco:CharacterString>
+                  <gco:CharacterString>sea_surface_height_above_geoid</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_temperature</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_water_salinity</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>sea_surface_height_above_geoid</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -260,10 +280,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d31583">
+                        <gml:TimePeriod gml:id="d32523">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2014-05-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-18T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2014-05-16T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-18T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -358,9 +378,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d31583e40">
-                           <gml:beginPosition>2014-05-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-18T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d32523e49">
+                           <gml:beginPosition>2014-05-16T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-18T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -483,9 +503,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d31583e41">
-                           <gml:beginPosition>2014-05-16T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-05-18T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d32523e50">
+                           <gml:beginPosition>2014-05-16T13:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2014-05-18T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -566,50 +586,6 @@
                <gmd:descriptor>
                   <gco:CharacterString>partition</gco:CharacterString>
                </gmd:descriptor>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>x</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>nodal x-coordinate</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>y</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>nodal y-coordinate</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -749,6 +725,70 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
+                        <gco:CharacterString>siglay</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Sigma Layers (ocean_sigma/general_coordinate)</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>siglev</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Sigma Levels (ocean_sigma/general_coordinate)</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>h</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Bathymetry (sea_floor_depth_below_geoid)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
                         <gco:CharacterString>nv</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
@@ -856,28 +896,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>file_date</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>char</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString/>
-               </gmd:descriptor>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>short_wave</gco:CharacterString>
+                        <gco:CharacterString>zeta</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -889,9 +908,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Short Wave Radiation</gco:CharacterString>
+                  <gco:CharacterString>Water Surface Elevation (sea_surface_height_above_geoid)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#W%20m-2"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -899,7 +918,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>net_heat_flux</gco:CharacterString>
+                        <gco:CharacterString>u</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -911,9 +930,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Surface Net Heat Flux</gco:CharacterString>
+                  <gco:CharacterString>Eastward Water Velocity</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#W%20m-2"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters%20s-1"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -921,7 +940,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>long_wave</gco:CharacterString>
+                        <gco:CharacterString>v</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -933,9 +952,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>long wave radiation</gco:CharacterString>
+                  <gco:CharacterString>Northward Water Velocity</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#W%20m-2"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters%20s-1"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -943,7 +962,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>uwind_stress</gco:CharacterString>
+                        <gco:CharacterString>tauc</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -955,9 +974,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Eastward Wind Stress (Wind Stress)</gco:CharacterString>
+                  <gco:CharacterString>bed stress magnitude from currents</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#Pa"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%5E2%20s%5E-2"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -965,7 +984,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>vwind_stress</gco:CharacterString>
+                        <gco:CharacterString>temp</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -977,9 +996,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Northward Wind Stress (Wind Stress)</gco:CharacterString>
+                  <gco:CharacterString>temperature (sea_water_temperature)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#Pa"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_C"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -987,7 +1006,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>U10</gco:CharacterString>
+                        <gco:CharacterString>salinity</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -999,9 +1018,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Eastward Wind Speed</gco:CharacterString>
+                  <gco:CharacterString>salinity (sea_water_salinity)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1e-3"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1009,7 +1028,112 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>V10</gco:CharacterString>
+                        <gco:CharacterString>wet_nodes</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Nodes</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_cells</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Cells</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_nodes_prev_int</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Nodes_At_Previous_Internal_Step</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_cells_prev_int</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Cells_At_Previous_Internal_Step</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_cells_prev_ext</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Cells_At_Previous_External_Step</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>DYE</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -1021,9 +1145,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Northward Wind Speed</gco:CharacterString>
+                  <gco:CharacterString>Water Surface Elevation (sea_surface_height_above_geoid)</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1031,7 +1155,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>air_pressure</gco:CharacterString>
+                        <gco:CharacterString>x</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -1043,9 +1167,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Air Pressure</gco:CharacterString>
+                  <gco:CharacterString>nodal x-coordinate</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#Pa"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1053,7 +1177,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>air_temperature</gco:CharacterString>
+                        <gco:CharacterString>y</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -1065,119 +1189,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Air Temperature</gco:CharacterString>
+                  <gco:CharacterString>nodal y-coordinate</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degree%20(C)"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>SPQ</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Specific Humidity</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#kg%2Fkg"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>relative_humidity</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Relative Humidity</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#kg%2Fkg"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>cloud_cover</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Cloud Cover</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>uwind_speed</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Eastward Wind Speed (Wind Speed)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>vwind_speed</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Northward Wind Speed (Wind Speed)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -1294,7 +1308,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 15/05/2014   20:40</gco:CharacterString>
+                  <gco:CharacterString>model started at: 16/05/2014   08:41</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
