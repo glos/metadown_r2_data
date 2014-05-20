@@ -12,7 +12,7 @@
   </gmd:hierarchyLevel>
   <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" gco:nilReason="missing"/>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime>2014-05-20T08:18:23.745006</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-05-20T10:18:27.893472</gco:DateTime></gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19119/2005</gco:CharacterString>
   </gmd:metadataStandardName>
