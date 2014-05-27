@@ -48,7 +48,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime>2014-05-27T18:17:49.207631</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-05-27T20:18:04.564058</gco:DateTime></gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
   </gmd:metadataStandardName>
