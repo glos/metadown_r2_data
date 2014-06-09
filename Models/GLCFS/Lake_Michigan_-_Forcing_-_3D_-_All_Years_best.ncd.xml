@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-06-09T16:15:11.447660</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-06-09T20:18:45.929060</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -90,7 +90,7 @@
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>72528</gco:Integer>
+                  <gco:Integer>73728</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
                   <gco:Measure uom="seconds">3600.0</gco:Measure>
@@ -344,10 +344,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d123953">
+                        <gml:TimePeriod gml:id="d1087">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-10T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-30T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -472,9 +472,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d123953e72">
+                        <gml:TimePeriod gml:id="d1087e72">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-10T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-30T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -627,9 +627,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d123953e73">
+                        <gml:TimePeriod gml:id="d1087e73">
                            <gml:beginPosition>2006-01-01T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-04-10T23:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-05-30T23:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1037,7 +1037,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Mon Mar  3 07:39:30 2014: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/m201400100.in1.nc tmp/m201400100.in1.nc4 ;
+                  <gco:CharacterString>Mon Apr 21 07:20:40 2014: /opt/local/bin/ncks --fl_fmt=netcdf4_classic --deflate=5 nc_files/m201405100.in1.nc tmp/m201405100.in1.nc4 ;
 FMRC Best Dataset</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
