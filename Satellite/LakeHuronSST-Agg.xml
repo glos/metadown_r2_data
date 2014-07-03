@@ -61,7 +61,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-07-03T20:15:03.086270</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-07-03T22:15:02.995007</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -105,10 +105,10 @@
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>150</gco:Integer>
+                  <gco:Integer>151</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">474326.0</gco:Measure>
+                  <gco:Measure uom="seconds">482674.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -456,10 +456,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13527">
+                        <gml:TimePeriod gml:id="d15193">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-07T07:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-06-27T07:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -606,9 +606,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13527e68">
+                        <gml:TimePeriod gml:id="d15193e68">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-07T07:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-06-27T07:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -783,9 +783,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13527e69">
+                        <gml:TimePeriod gml:id="d15193e69">
                            <gml:beginPosition>2012-03-11T08:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-06-07T07:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-06-27T07:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1060,8 +1060,8 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jun 19 10:34:21 2014: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406070750.nc /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406070750.nc4
-Thu Jun 19 10:34:18 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406070750.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Wed Jul  2 14:41:49 2014: /usr/local/bin/ncks -4 -A -L 3 /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406270725.nc /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406270725.nc4
+Wed Jul 02 14:41:47 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Huron/LST/4326_201406270725.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
