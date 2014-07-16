@@ -60,7 +60,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime>2014-07-16T14:17:41.583642</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-07-16T16:18:27.301437</gco:DateTime></gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
   </gmd:metadataStandardName>
@@ -83,7 +83,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>GLOS UMBIO (Univ. of Michgan MHL)</gco:CharacterString>
+                  <gco:CharacterString>UM Bio Station buoy (UMBIO)</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -104,7 +104,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>GLOS in-situ buoy in Douglas Lake (northwestern Lower Peninsula of Michigan), operated by the University of Michigan Marine Hydrodynamics Laboratory.</gco:CharacterString>
+            <gco:CharacterString>GLOS in-situ buoy in Douglas Lake (northwestern Lower Peninsula of Michigan), operated by the University of Michigan CILER</gco:CharacterString>
          </gmd:abstract>
          <gmd:purpose>
             <gco:CharacterString>Continuous in-situ observations of meteorolgic and water conditions.</gco:CharacterString>
@@ -218,10 +218,10 @@
                   <gco:CharacterString>thermistor</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>NDBC ID 45028</gco:CharacterString>
+                  <gco:CharacterString>GLOS</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>GLOS</gco:CharacterString>
+                  <gco:CharacterString>UMBIO</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode"/>
