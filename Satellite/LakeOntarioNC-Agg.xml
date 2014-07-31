@@ -61,7 +61,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-07-31T20:15:08.807998</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-07-31T22:15:04.164616</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -105,10 +105,10 @@
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>17</gco:Integer>
+                  <gco:Integer>18</gco:Integer>
                </gmd:dimensionSize>
                <gmd:resolution>
-                  <gco:Measure uom="seconds">2089556.0</gco:Measure>
+                  <gco:Measure uom="seconds">2017588.0</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -453,10 +453,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8071">
+                        <gml:TimePeriod gml:id="d9313">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-07-12T17:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-07-22T18:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -603,9 +603,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8071e66">
+                        <gml:TimePeriod gml:id="d9313e66">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-07-12T17:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-07-22T18:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -780,9 +780,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8071e67">
+                        <gml:TimePeriod gml:id="d9313e67">
                            <gml:beginPosition>2013-06-20T18:55:00Z</gml:beginPosition>
-                           <gml:endPosition>2014-07-12T17:50:00Z</gml:endPosition>
+                           <gml:endPosition>2014-07-22T18:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1101,7 +1101,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>Thu Jul 17 11:39:07 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/NCI/20140712_1750.nc, ... )</gco:CharacterString>
+                  <gco:CharacterString>Thu Jul 31 11:05:14 2014: GDAL Create( /home/nljessee/Desktop/DMAC_Scripts/Ontario/NCI/20140722_1825.nc, ... )</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
