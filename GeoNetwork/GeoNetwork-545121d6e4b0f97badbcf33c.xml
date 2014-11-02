@@ -194,7 +194,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime>2014-11-02T19:33:01.542656</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-11-02T19:59:45.144586</gco:DateTime></gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO19115</gco:CharacterString>
   </gmd:metadataStandardName>
