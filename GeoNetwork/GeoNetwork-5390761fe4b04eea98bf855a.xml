@@ -1,0 +1,309 @@
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>5390761fe4b04eea98bf855a</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/English_list.php" codeListValue="eng: USA">eng USA</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">UTF8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/1712">
+         <gmd:individualName>
+            <gco:CharacterString>Duane C Chapman</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Research Fish Biologist</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:facsimile>
+                        <gco:CharacterString>5738761896</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>4200 New Haven Road</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Columbia</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MO</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>65201</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>dchapman@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/1712</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/7208">
+         <gmd:individualName>
+            <gco:CharacterString>Sandra Morrison</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Staff Scientist</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>1451 Green Rd</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Ann Arbor</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MI</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>48105</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>smorrison@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/7208</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime>2014-11-23T00:01:24.978850</gco:DateTime></gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ISO19115</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>https://www.sciencebase.gov/catalog/item/5390761fe4b04eea98bf855a</gco:CharacterString>
+  </gmd:dataSetURI>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Developmental rate of embryos and larvae of bighead and silver carps</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012-01-01</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:purpose>
+            <gco:CharacterString>Developmental rate of the eggs and larvae is a key parameter to be incorporated in models that determine where Asian carps are capable of spawning, and also, when coupled with field collections of drifting eggs and larvae, can be used to determine spawning locations or where the larvae will leave the drift and move to nursery locations. These locations are required to inform control efforts based on spawning disruption or destruction of the carp in their nurseries. Previous published work had closely described the developmental stages, but had poor temperature control and thus was inadequate for this work. Also, because substantial genetic change has occurred since the introduction of Asian carps to North America, it was important that this work be done with North American fish for maximum reliability of the models.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:abstract>
+            <gco:CharacterString>&lt;h4&gt;Description of Work&lt;/h4&gt; USGS employees worked with Chinese scientists to acquire and translate existing Chinese science on development. Then, bighead and silver carps were spawned and the eggs and larvae reared in the laboratory, with close control on temperature and very close observation of the different developmental stages. Multiple spawning events of each species were necessary to understand variability in developmental rate. Preserved voucher specimens and microscope photography were taken of all developmental stages. &lt;br /&gt; &amp;nbsp; &lt;h4&gt;Relevance/Benefits&lt;/h4&gt; These data were first used to model the spawning locations of Asian carps in the Missouri River. They were later used in the development of the more advanced&amp;nbsp; &lt;a href="http://cida.usgs.gov/glri/projects/invasive_species/asiancarp.illinois.edu"&gt;FluEgg model&lt;/a&gt;, which can be used to determine whether a river is at risk for reproduction by Asian carps. Various rivers have been modeled, with the determination that under some flow conditions much shorter rivers than previously believed would be adequate for Asian carp reproduction. The recent discovery that grass carp have successfully spawned in the Sandusky River in Ohio, a short tributary of Lake Erie, lends validity to these models. &lt;br /&gt; &amp;nbsp; &lt;h4&gt;Key Findings&lt;/h4&gt; A temperature model was developed that describes the relationship between developmental rate and temperature for each developmental stage. &lt;br /&gt; &lt;br /&gt; Presented&amp;nbsp;at 142nd Annual Meeting of the American Fisheries Society in St. Paul, MN,&amp;nbsp; &lt;a href="https://afs.confex.com/afs/2012/webprogram/Paper10194.html"&gt;Use of drift models to understand Asian carp spawning and early life history.&lt;/a&gt; &lt;br /&gt; &amp;nbsp;</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes Restoration Initiative</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GLRI</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Asian Carp</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Invasive Species</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Template 66</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Template 673</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="Label">Label</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Distribution>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/item/5390761fe4b04eea98bf855a</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase Item Summary Page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Link to the ScienceBase Item Summary page for the item described by this metadata record</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/glri/projects/invasive_species/14-developmental-rate-embryos-and-larvae-bighead-and-silver-carps-14.html</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Project Home Page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Web Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.asiancarp.us/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Related Resource</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Web Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/oai-pmh?verb=ListRecords&amp;metadataPrefix=fgdc-orig&amp;set=5390761fe4b04eea98bf855a</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase OAI PMH Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>OAI-PMH</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/item/5390761fe4b04eea98bf855a/csw?service=CSW&amp;version=2.0.2&amp;request=GetRecords</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase CSW Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>ScienceBase WebLink</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataConstraints xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Constraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>none</gco:CharacterString>
+         </gmd:useLimitation>
+      </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+</gmi:MI_Metadata>

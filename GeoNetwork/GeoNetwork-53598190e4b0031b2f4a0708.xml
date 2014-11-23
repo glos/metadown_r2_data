@@ -1,0 +1,569 @@
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>53598190e4b0031b2f4a0708</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/English_list.php" codeListValue="eng: USA">eng USA</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">UTF8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/8368">
+         <gmd:individualName>
+            <gco:CharacterString>Cynthia M Rachol</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Hydrologist</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:facsimile>
+                        <gco:CharacterString>5178878937</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>6520 Mercantile Way, Suite 5</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Lansing</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MI</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>48911</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>crachol@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/8368</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/7200">
+         <gmd:individualName>
+            <gco:CharacterString>James R Morris</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Ohio Water Science Center Director</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:facsimile>
+                        <gco:CharacterString>6144307777</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>6480 Doubletree Avenue</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Columbus</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>OH</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>43229-1111</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>jrmorris@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/7200</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/5635">
+         <gmd:individualName>
+            <gco:CharacterString>Matthew J Komiskey</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Hydrologic Technician</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>6088213824</gco:CharacterString>
+                     </gmd:voice>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>8505 Research Way</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Middleton</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>WI</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>53562-0000</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>mjkomisk@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/5635</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/22848">
+         <gmd:individualName>
+            <gco:CharacterString>Angela K Brennan</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Biologist</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>5178878905</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>5178878937</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>6520 Mercantile Way, Suite 5</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Lansing</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>MI</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>48911</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>akbrennan@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/22848</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty uuid="https://www.sciencebase.gov/directory/person/6939">
+         <gmd:individualName>
+            <gco:CharacterString>Kevin D Metzker</gco:CharacterString>
+         </gmd:individualName>
+         <gmd:positionName>
+            <gco:CharacterString>Hydrologic Technician</gco:CharacterString>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice>
+                        <gco:CharacterString>6144307738</gco:CharacterString>
+                     </gmd:voice>
+                     <gmd:facsimile>
+                        <gco:CharacterString>6144307777</gco:CharacterString>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>6480 Doubletree Avenue</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Columbus</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>OH</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>43229-1111</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>US</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>kmetzker@usgs.gov</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+               <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/directory/person/6939</gmd:URL>
+                     </gmd:linkage>
+                  </gmd:CI_OnlineResource>
+               </gmd:onlineResource>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime>2014-11-23T00:01:29.084868</gco:DateTime></gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ISO19115</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>https://www.sciencebase.gov/catalog/item/53598190e4b0031b2f4a0708</gco:CharacterString>
+  </gmd:dataSetURI>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Maumee River Edge of Field Monitoring</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="Project Start Date">Project Start Date</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:purpose>
+            <gco:CharacterString>Monitoring at the priority watershed scale will provide a direct measure of the effects of USDA conservation practice implementations on reducing erosion and nutrients by targeting those areas affected by the conservation practice.</gco:CharacterString>
+         </gmd:purpose>
+         <gmd:abstract>
+            <gco:CharacterString>&lt;h4&gt;Description of Work&lt;/h4&gt; The Great Lakes Restoration Initiative (GLRI) was established to accelerate ecosystem restoration in the Great Lakes by confronting the most serious threats to the region, such as nonpoint source pollution, toxic sediments, and invasive species. Three Priority Watersheds have been targeted by the Regional Working Group's Phosphorus Reduction Work Group (Fox/Green Bay, Saginaw, and Maumee) and are characterized by having a high density of agricultural land use and have ecosystem impairments that have been clearly identified. Within the Maumee River Priority Watersheds, monitoring is being conducted at the sub-watershed, edge-of-field, and subsurface-tile scale. The edge-of-field and subsurface-tile monitoring stations are targeted to those areas within each watershed that will be directly affected by the conservation efforts. These sites will allow for a rapid assessment of conservation implementation as the water quality from those locations are immediately affected by land-use and management changes and represent the major pathways for non-point pollution to enter receiving streams. Relationships between the small to sub-watershed scale will help develop an understanding on how conservation efforts may impact the watershed as a whole. This effort will accelerate quantification of current and ongoing efforts in the Blanchard GLRI Priority subwatershed with a focus on the smallest scale of implementation (field scale) and is responsive to RWG questions/requests regarding the need to quantify impacts of priority GLRI activities through relevant science and monitoring. USGS will undertake and coordinate a multi-agency effort to predict losses of phosphorus, nitrogen, and sediment from individual fields using established water quality monitoring networks and simulation tools. Results may be scaled-up to examine broader scale effects and reasonable/achievable reductions that can be expected from targeted activities. Coordination among scientists, water quality specialists, and modelers in NRCS, USGS, EPA, and partnering universities is expected. Linkages between this work and ongoing Great Lakes efforts to establish target loads for subwatersheds (e.g., Great Lakes Water Quality Agreement) will be explored. &lt;br /&gt; &amp;nbsp;</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>Priority Watershed</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>dissolved reactive phosphorus</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>agriculture</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>total phosphorus</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>chloride</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>nitrogen</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Best Management Practices</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>suspended sediment</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>GLRI</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Great Lakes Restoration Initiative</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Lake:Lake Erie</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Nearshore Health</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Uploaded in Batch</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>Template 367</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="Label">Label</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-83.477629563</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-78.8534448268</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>41.382130631</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>42.9040639087</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Distribution>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/item/53598190e4b0031b2f4a0708</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase Item Summary Page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Link to the ScienceBase Item Summary page for the item described by this metadata record</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://mi.water.usgs.gov/projects.htm?Category=Any</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Project Home Page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Web Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://cida.usgs.gov/glri/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Related Resource</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Web Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/53598190e4b0031b2f4a0708?mode=download&amp;request=kml&amp;service=wms&amp;layers=footprint</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>KML</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>KML Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>KML Download</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/53598190e4b0031b2f4a0708?service=wms&amp;request=getcapabilities&amp;version=1.3.0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase WMS Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>OGC Service Capabilities URL</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/53598190e4b0031b2f4a0708?service=wfs&amp;request=getcapabilities&amp;version=1.0.0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase WFS Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>OGC Service Capabilities URL</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/file/get/53598190e4b0031b2f4a0708</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Download Attached Files</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Download Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataConstraints xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Constraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>none</gco:CharacterString>
+         </gmd:useLimitation>
+      </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+</gmi:MI_Metadata>

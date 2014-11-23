@@ -1,0 +1,286 @@
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd"><gmd:fileIdentifier xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>50e553e3e4b0a4aa5bb0221f</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/English_list.php" codeListValue="eng: USA">eng USA</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">UTF8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:gmd="http://www.isotc211.org/2005/gmd">
+      <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Baldigo, Barry P.</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact/>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Duffy, Brian T.</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact/>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Nally, Christopher J.</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact/>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>David, Anthony M.</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact/>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>International Association for Great Lakes Research</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact/>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:DateTime>2014-11-23T00:00:20.416985</gco:DateTime></gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>ISO19115</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:dataSetURI xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gco:CharacterString>https://www.sciencebase.gov/catalog/item/50e553e3e4b0a4aa5bb0221f</gco:CharacterString>
+  </gmd:dataSetURI>
+  <gmd:identificationInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>Toxicity of waters from the St. Lawrence River at Massena Area-of-Concern to the plankton species Selenastrum capricornutum and Ceriodaphnia dubia</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2012</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="Publication Date">Publication Date</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>In 1972, the US and Canada committed to restore the chemical, physical, and biological integrity of the Great Lakes Ecosystem under the first Great Lakes Water Quality Agreement. During subsequent amendments, part of the St. Lawrence River at Massena NY, and segments of three tributaries, were designated as one Area of Concern (AOC) due to various beneficial use impairments (BUIs). Plankton beneficial use was designated impaired within this AOC because phytoplankton and zooplankton population data were unavailable or needed &#8220;further assessment&#8221;. Contaminated sediments from industrial waste disposal have been largely remediated, thus, the plankton BUI may currently be obsolete. The St. Lawrence River at Massena AOC remedial action plan established two criteria which may be used to assess the plankton BUI; the second states that, &#8220;in the absence of community structure data, plankton bioassays confirm no toxicity impact in ambient waters&#8221;. This study was implemented during 2011 to determine whether this criterion was achieved. Acute toxicity and chronic toxicity of local waters were quantified seasonally using standardized bioassays with green alga &lt;i&gt;Selenastrum capricornutum&lt;/i&gt; and water flea &lt;i&gt;Ceriodaphnia dubia&lt;/i&gt; to test the hypothesis that waters from sites within the AOC were no more toxic than were waters from adjacent reference sites. The results of univariate and multivariate analyses confirm that ambient waters from most AOC sites (and seasons) were not toxic to both species. Assuming both test species represent natural plankton assemblages, the quality of surface waters throughout most of this AOC should not seriously impair the health of resident plankton communities.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-80</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-70</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>42</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>47</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Distribution>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/item/50e553e3e4b0a4aa5bb0221f</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase Item Summary Page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Link to the ScienceBase Item Summary page for the item described by this metadata record</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://pubs.er.usgs.gov/publication/70041260</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>index page</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>ScienceBase WebLink</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/50e553e3e4b0a4aa5bb0221f?mode=download&amp;request=kml&amp;service=wms&amp;layers=footprint</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>KML</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>KML Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>KML Download</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/50e553e3e4b0a4aa5bb0221f?service=wms&amp;request=getcapabilities&amp;version=1.3.0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase WMS Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>OGC Service Capabilities URL</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalogMaps/mapping/ows/50e553e3e4b0a4aa5bb0221f?service=wfs&amp;request=getcapabilities&amp;version=1.0.0</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WFS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>ScienceBase WFS Service</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>OGC Service Capabilities URL</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.sciencebase.gov/catalog/file/get/50e553e3e4b0a4aa5bb0221f</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:applicationProfile>
+                        <gco:CharacterString>Web Browser</gco:CharacterString>
+                     </gmd:applicationProfile>
+                     <gmd:name>
+                        <gco:CharacterString>Download Attached Files</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Download Link</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataConstraints xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
+      <gmd:MD_Constraints>
+         <gmd:useLimitation>
+            <gco:CharacterString>none</gco:CharacterString>
+         </gmd:useLimitation>
+      </gmd:MD_Constraints>
+  </gmd:metadataConstraints>
+</gmi:MI_Metadata>
