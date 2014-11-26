@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-11-26T16:15:41.823177</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-11-26T18:15:43.964593</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -280,10 +280,10 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13499">
+                        <gml:TimePeriod gml:id="d15237">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-26T09:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-11-26T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -378,9 +378,9 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13499e49">
+                        <gml:TimePeriod gml:id="d15237e49">
                            <gml:beginPosition>2011-11-15T10:01:52Z</gml:beginPosition>
-                           <gml:endPosition>2014-11-26T09:00:00Z</gml:endPosition>
+                           <gml:endPosition>2014-11-26T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
@@ -1227,7 +1227,7 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>model started at: 26/11/2014   03:09</gco:CharacterString>
+                  <gco:CharacterString>model started at: 26/11/2014   06:36</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
