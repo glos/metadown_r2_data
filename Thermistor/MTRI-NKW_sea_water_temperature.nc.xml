@@ -27,7 +27,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-12-05T20:20:00.695563</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-12-05T22:33:01.639323</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -331,7 +331,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13329">
+                        <gml:TimePeriod gml:id="d1077">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-05-15T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-06T19:22:00Z</gml:endPosition>
@@ -447,7 +447,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d13329e86">
+                        <gml:TimePeriod gml:id="d1077e86">
                            <gml:beginPosition>2012-05-15T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-06T19:22:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -486,149 +486,6 @@
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="THREDDS_HTTP_Service">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>North Keeweenaw Waterway thermistor</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014125</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014125</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014125</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName gco:nilReason="missing"/>
-                     <gmd:organisationName>
-                        <gco:CharacterString>GLOS,MTRI,Michigan Technological University: Research Institute</gco:CharacterString>
-                     </gmd:organisationName>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString/>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>THREDDS HTTP Service</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.617443</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-88.617443</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>47.210384</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>47.210384</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-               <gmd:temporalElement>
-                  <gmd:EX_TemporalExtent>
-                     <gmd:extent>
-                        <gml:TimePeriod gml:id="d13329e87">
-                           <gml:beginPosition>2012-05-15T00:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2013-11-06T19:22:00Z</gml:endPosition>
-                        </gml:TimePeriod>
-                     </gmd:extent>
-                  </gmd:EX_TemporalExtent>
-               </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real/>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real/>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>FileHTTPService</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us/thredds/fileServer/In-situ_temp/nkw/MTRI-NKW_sea_water_temperature.nc</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>THREDDS_HTTP_Service</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>THREDDS HTTP Service</gco:CharacterString>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>

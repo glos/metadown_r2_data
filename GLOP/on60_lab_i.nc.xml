@@ -25,7 +25,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-12-05T20:19:55.198787</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-12-05T22:32:58.277056</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -286,126 +286,6 @@
                      </gmd:name>
                      <gmd:description>
                         <gco:CharacterString>THREDDS OPeNDAP</gco:CharacterString>
-                     </gmd:description>
-                     <gmd:function>
-                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
-                     </gmd:function>
-                  </gmd:CI_OnlineResource>
-               </srv:connectPoint>
-            </srv:SV_OperationMetadata>
-         </srv:containsOperations>
-         <srv:operatesOn xlink:href="#DataIdentification"/>
-      </srv:SV_ServiceIdentification>
-   </gmd:identificationInfo>
-   <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OGC-WMS">
-         <gmd:citation>
-            <gmd:CI_Citation>
-               <gmd:title>
-                  <gco:CharacterString>ON60 - Optical Properties</gco:CharacterString>
-               </gmd:title>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014-09-10</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014-09-10</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="issued">issued</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:date>
-                  <gmd:CI_Date>
-                     <gmd:date>
-                        <gco:Date>2014-09-10</gco:Date>
-                     </gmd:date>
-                     <gmd:dateType>
-                        <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
-                     </gmd:dateType>
-                  </gmd:CI_Date>
-               </gmd:date>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName gco:nilReason="missing"/>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-               <gmd:citedResponsibleParty>
-                  <gmd:CI_ResponsibleParty>
-                     <gmd:individualName>
-                        <gco:CharacterString>GLOS DMAC</gco:CharacterString>
-                     </gmd:individualName>
-                     <gmd:organisationName gco:nilReason="missing"/>
-                     <gmd:contactInfo gco:nilReason="missing"/>
-                     <gmd:role>
-                        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue=""/>
-                     </gmd:role>
-                  </gmd:CI_ResponsibleParty>
-               </gmd:citedResponsibleParty>
-            </gmd:CI_Citation>
-         </gmd:citation>
-         <gmd:abstract>
-            <gco:CharacterString>Great Lakes Optical Properties</gco:CharacterString>
-         </gmd:abstract>
-         <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
-         </srv:serviceType>
-         <srv:extent>
-            <gmd:EX_Extent>
-               <gmd:geographicElement>
-                  <gmd:EX_GeographicBoundingBox>
-                     <gmd:extentTypeCode>
-                        <gco:Boolean>1</gco:Boolean>
-                     </gmd:extentTypeCode>
-                     <gmd:westBoundLongitude>
-                        <gco:Decimal>-77.2</gco:Decimal>
-                     </gmd:westBoundLongitude>
-                     <gmd:eastBoundLongitude>
-                        <gco:Decimal>-77.2</gco:Decimal>
-                     </gmd:eastBoundLongitude>
-                     <gmd:southBoundLatitude>
-                        <gco:Decimal>43.58</gco:Decimal>
-                     </gmd:southBoundLatitude>
-                     <gmd:northBoundLatitude>
-                        <gco:Decimal>43.58</gco:Decimal>
-                     </gmd:northBoundLatitude>
-                  </gmd:EX_GeographicBoundingBox>
-               </gmd:geographicElement>
-            </gmd:EX_Extent>
-         </srv:extent>
-         <srv:couplingType>
-            <srv:SV_CouplingType codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
-         </srv:couplingType>
-         <srv:containsOperations>
-            <srv:SV_OperationMetadata>
-               <srv:operationName>
-                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
-               </srv:operationName>
-               <srv:DCP gco:nilReason="unknown"/>
-               <srv:connectPoint>
-                  <gmd:CI_OnlineResource>
-                     <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us/thredds/wms/glop/on60_lab_i.nc?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
-                     </gmd:linkage>
-                     <gmd:name>
-                        <gco:CharacterString>OGC-WMS</gco:CharacterString>
-                     </gmd:name>
-                     <gmd:description>
-                        <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
