@@ -27,7 +27,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2014-12-16T16:19:40.885164</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2014-12-16T18:34:45.015209</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -101,7 +101,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -111,7 +111,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="issued">issued</gmd:CI_DateTypeCode>
@@ -121,7 +121,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -223,6 +223,12 @@
          </gmd:descriptiveKeywords>
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>platform_name</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>instrument_name</gco:CharacterString>
+               </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>sea_water_temperature</gco:CharacterString>
                </gmd:keyword>
@@ -331,7 +337,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8813">
+                        <gml:TimePeriod gml:id="d883">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-05-15T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-06T19:22:00Z</gml:endPosition>
@@ -364,7 +370,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
@@ -374,7 +380,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="issued">issued</gmd:CI_DateTypeCode>
@@ -384,7 +390,7 @@
                <gmd:date>
                   <gmd:CI_Date>
                      <gmd:date>
-                        <gco:Date>2014125</gco:Date>
+                        <gco:Date>20141212</gco:Date>
                      </gmd:date>
                      <gmd:dateType>
                         <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
@@ -447,7 +453,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d8813e86">
+                        <gml:TimePeriod gml:id="d883e88">
                            <gml:beginPosition>2012-05-15T00:00:00Z</gml:beginPosition>
                            <gml:endPosition>2013-11-06T19:22:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -518,7 +524,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>North Keeweenaw Waterway thermistor</gco:CharacterString>
+                  <gco:CharacterString>North Keeweenaw Waterway thermistor (platform_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -548,27 +554,6 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>feature_type_instance</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>char</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Identifier for each feature type instance</gco:CharacterString>
-               </gmd:descriptor>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
                         <gco:CharacterString>instrument</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
@@ -581,7 +566,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>urn:ioos:sensor:cencoos:MTRI-NKW:sea_water_temperature</gco:CharacterString>
+                  <gco:CharacterString>urn:ioos:sensor:cencoos:MTRI-NKW:sea_water_temperature (instrument_name)</gco:CharacterString>
                </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
@@ -590,7 +575,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>obs</gco:CharacterString>
+                        <gco:CharacterString>temperature</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
