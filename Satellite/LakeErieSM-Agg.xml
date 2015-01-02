@@ -1,4 +1,4 @@
-<gmi:MI_Metadata xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+<gmi:MI_Metadata xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:srv="http://www.isotc211.org/2005/srv" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
       <gco:CharacterString>LakeErieSM-Agg</gco:CharacterString>
    </gmd:fileIdentifier>
@@ -61,7 +61,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-01-01T22:15:08.496327</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2015-01-02T00:15:17.828978</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -444,7 +444,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d14087">
+                        <gml:TimePeriod gml:id="d149">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2013-06-27T19:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-09-08T18:25:00Z</gml:endPosition>
@@ -594,7 +594,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d14087e66">
+                        <gml:TimePeriod gml:id="d149e66">
                            <gml:beginPosition>2013-06-27T19:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-09-08T18:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -771,7 +771,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d14087e67">
+                        <gml:TimePeriod gml:id="d149e67">
                            <gml:beginPosition>2013-06-27T19:00:00Z</gml:beginPosition>
                            <gml:endPosition>2014-09-08T18:25:00Z</gml:endPosition>
                         </gml:TimePeriod>
