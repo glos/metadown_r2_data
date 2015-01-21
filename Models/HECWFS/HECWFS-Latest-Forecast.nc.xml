@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-01-21T12:15:44.965836</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2015-01-21T14:15:42.142897</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -280,7 +280,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9171">
+                        <gml:TimePeriod gml:id="d10663">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2015-01-20T13:01:52Z</gml:beginPosition>
                            <gml:endPosition>2015-01-22T12:00:00Z</gml:endPosition>
@@ -378,7 +378,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9171e49">
+                        <gml:TimePeriod gml:id="d10663e49">
                            <gml:beginPosition>2015-01-20T13:01:52Z</gml:beginPosition>
                            <gml:endPosition>2015-01-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
@@ -503,7 +503,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d9171e50">
+                        <gml:TimePeriod gml:id="d10663e50">
                            <gml:beginPosition>2015-01-20T13:01:52Z</gml:beginPosition>
                            <gml:endPosition>2015-01-22T12:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
