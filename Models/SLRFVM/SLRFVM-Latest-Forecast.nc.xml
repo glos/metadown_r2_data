@@ -1,6 +1,6 @@
 <gmi:MI_Metadata xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:srv="http://www.isotc211.org/2005/srv" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
    <gmd:fileIdentifier>
-      <gco:CharacterString>glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd</gco:CharacterString>
+      <gco:CharacterString>SLRFVM-Lastest-Forecast</gco:CharacterString>
    </gmd:fileIdentifier>
    <gmd:language>
       <gmd:LanguageCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
@@ -17,17 +17,17 @@
    <gmd:contact>
       <gmd:CI_ResponsibleParty>
          <gmd:individualName>
-            <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+            <gco:CharacterString>Dr. Eric J. Anderson</gco:CharacterString>
          </gmd:individualName>
          <gmd:organisationName>
-            <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
+            <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
          </gmd:organisationName>
          <gmd:contactInfo>
             <gmd:CI_Contact>
                <gmd:address>
                   <gmd:CI_Address>
                      <gmd:electronicMailAddress>
-                        <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                        <gco:CharacterString>eric.j.anderson@noaa.gov</gco:CharacterString>
                      </gmd:electronicMailAddress>
                   </gmd:CI_Address>
                </gmd:address>
@@ -39,7 +39,7 @@
       </gmd:CI_ResponsibleParty>
    </gmd:contact>
    <gmd:dateStamp>
-      <gco:DateTime>2015-03-01T18:22:11.013592</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2015-03-01T18:23:05.940526</gco:DateTime></gmd:dateStamp>
    <gmd:metadataStandardName>
       <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
    </gmd:metadataStandardName>
@@ -49,7 +49,7 @@
    <gmd:spatialRepresentationInfo>
       <gmd:MD_GridSpatialRepresentation>
          <gmd:numberOfDimensions>
-            <gco:Integer>4</gco:Integer>
+            <gco:Integer>3</gco:Integer>
          </gmd:numberOfDimensions>
          <gmd:axisDimensionProperties>
             <gmd:MD_Dimension>
@@ -58,7 +58,7 @@
                </gmd:dimensionName>
                <gmd:dimensionSize gco:nilReason="unknown"/>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_east">1.0237821407271707E-4</gco:Measure>
+                  <gco:Measure uom="degrees_east">0.0183217984067658</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -69,7 +69,7 @@
                </gmd:dimensionName>
                <gmd:dimensionSize gco:nilReason="unknown"/>
                <gmd:resolution>
-                  <gco:Measure uom="degrees_north">1.3694902406121692E-4</gco:Measure>
+                  <gco:Measure uom="degrees_north">4.0791631137248586E-5</gco:Measure>
                </gmd:resolution>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
@@ -78,23 +78,10 @@
                <gmd:dimensionName>
                   <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="vertical">vertical</gmd:MD_DimensionNameTypeCode>
                </gmd:dimensionName>
-               <gmd:dimensionSize gco:nilReason="unknown"/>
-               <gmd:resolution>
-                  <gco:Measure uom="meters">-0.9916973328061799</gco:Measure>
-               </gmd:resolution>
-            </gmd:MD_Dimension>
-         </gmd:axisDimensionProperties>
-         <gmd:axisDimensionProperties>
-            <gmd:MD_Dimension>
-               <gmd:dimensionName>
-                  <gmd:MD_DimensionNameTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="temporal">temporal</gmd:MD_DimensionNameTypeCode>
-               </gmd:dimensionName>
                <gmd:dimensionSize>
-                  <gco:Integer>508</gco:Integer>
+                  <gco:Integer>6</gco:Integer>
                </gmd:dimensionSize>
-               <gmd:resolution>
-                  <gco:Measure uom="seconds">10800.0</gco:Measure>
-               </gmd:resolution>
+               <gmd:resolution gco:nilReason="missing"/>
             </gmd:MD_Dimension>
          </gmd:axisDimensionProperties>
          <gmd:cellGeometry>
@@ -108,7 +95,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>GLCFS - Lake Michigan - Forecast - 3D</gco:CharacterString>
+                  <gco:CharacterString>SLRFVM - Upper St. Lawrence River (FVCOM) - Latest Forecast</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -151,24 +138,24 @@
                         </gmd:CI_Citation>
                      </gmd:authority>
                      <gmd:code>
-                        <gco:CharacterString>glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd</gco:CharacterString>
+                        <gco:CharacterString>SLRFVM-Lastest-Forecast</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:identifier>
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                        <gco:CharacterString>Dr. Eric J. Anderson</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
+                        <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                                    <gco:CharacterString>eric.j.anderson@noaa.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -194,22 +181,22 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of the 3D Forecast output for Lake Michigan from GLCFS</gco:CharacterString>
+            <gco:CharacterString>Latest Forecast for SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL</gco:CharacterString>
          </gmd:abstract>
          <gmd:pointOfContact>
             <gmd:CI_ResponsibleParty>
                <gmd:individualName>
-                  <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                  <gco:CharacterString>Dr. Eric J. Anderson</gco:CharacterString>
                </gmd:individualName>
                <gmd:organisationName>
-                  <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
+                  <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                </gmd:organisationName>
                <gmd:contactInfo>
                   <gmd:CI_Contact>
                      <gmd:address>
                         <gmd:CI_Address>
                            <gmd:electronicMailAddress>
-                              <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                              <gco:CharacterString>eric.j.anderson@noaa.gov</gco:CharacterString>
                            </gmd:electronicMailAddress>
                         </gmd:CI_Address>
                      </gmd:address>
@@ -234,37 +221,28 @@
          <gmd:descriptiveKeywords>
             <gmd:MD_Keywords>
                <gmd:keyword>
-                  <gco:CharacterString>depth_at_nodes</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>sea_water_temperature</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>eastward_sea_water_velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>northward_sea_water_velocity</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
-                  <gco:CharacterString>forecast_period</gco:CharacterString>
-               </gmd:keyword>
-               <gmd:keyword>
                   <gco:CharacterString>longitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
                   <gco:CharacterString>latitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>depth</gco:CharacterString>
+                  <gco:CharacterString>ocean_sigma/general_coordinate</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>ocean_sigma_coordinate</gco:CharacterString>
+                  <gco:CharacterString>ocean_sigma/general_coordinate</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>time</gco:CharacterString>
+                  <gco:CharacterString>sea_floor_depth_below_geoid</gco:CharacterString>
                </gmd:keyword>
                <gmd:keyword>
-                  <gco:CharacterString>forecast_reference_time</gco:CharacterString>
+                  <gco:CharacterString>sea_surface_height_above_geoid</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>longitude</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gco:CharacterString>latitude</gco:CharacterString>
                </gmd:keyword>
                <gmd:type>
                   <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
@@ -286,31 +264,6 @@
                </gmd:useLimitation>
             </gmd:MD_LegalConstraints>
          </gmd:resourceConstraints>
-         <gmd:aggregationInfo>
-            <gmd:MD_AggregateInformation>
-               <gmd:aggregateDataSetIdentifier>
-                  <gmd:MD_Identifier>
-                     <gmd:authority>
-                        <gmd:CI_Citation>
-                           <gmd:title>
-                              <gco:CharacterString>Unidata Common Data Model</gco:CharacterString>
-                           </gmd:title>
-                           <gmd:date gco:nilReason="inapplicable"/>
-                        </gmd:CI_Citation>
-                     </gmd:authority>
-                     <gmd:code>
-                        <gco:CharacterString>GRID</gco:CharacterString>
-                     </gmd:code>
-                  </gmd:MD_Identifier>
-               </gmd:aggregateDataSetIdentifier>
-               <gmd:associationType>
-                  <gmd:DS_AssociationTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</gmd:DS_AssociationTypeCode>
-               </gmd:associationType>
-               <gmd:initiativeType>
-                  <gmd:DS_InitiativeTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="project">project</gmd:DS_InitiativeTypeCode>
-               </gmd:initiativeType>
-            </gmd:MD_AggregateInformation>
-         </gmd:aggregationInfo>
          <gmd:language>
             <gco:CharacterString>eng</gco:CharacterString>
          </gmd:language>
@@ -325,41 +278,30 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.0940170288086</gco:Decimal>
+                        <gco:Decimal>-76.65740966796875</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-84.72782135009766</gco:Decimal>
+                        <gco:Decimal>285.2164306640625</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.604434967041016</gco:Decimal>
+                        <gco:Decimal>44.195377349853516</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>46.10731887817383</gco:Decimal>
+                        <gco:Decimal>45.00105285644531</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d769">
+                        <gml:TimePeriod gml:id="d789">
                            <gml:description>seconds</gml:description>
-                           <gml:beginPosition>2015-01-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-03-06T00:00:00Z</gml:endPosition>
+                           <gml:beginPosition>2015-02-10T22:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2015-02-12T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>-0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>-273</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
             </gmd:EX_Extent>
          </gmd:extent>
       </gmd:MD_DataIdentification>
@@ -369,7 +311,7 @@
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>GLCFS - Lake Michigan - Forecast - 3D</gco:CharacterString>
+                  <gco:CharacterString>SLRFVM - Upper St. Lawrence River (FVCOM) - Latest Forecast</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -404,17 +346,17 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                        <gco:CharacterString>Dr. Eric J. Anderson</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
+                        <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                                    <gco:CharacterString>eric.j.anderson@noaa.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -440,7 +382,7 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of the 3D Forecast output for Lake Michigan from GLCFS</gco:CharacterString>
+            <gco:CharacterString>Latest Forecast for SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
             <gco:LocalName>THREDDS OPeNDAP</gco:LocalName>
@@ -453,40 +395,29 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.0940170288086</gco:Decimal>
+                        <gco:Decimal>-76.65740966796875</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-84.72782135009766</gco:Decimal>
+                        <gco:Decimal>285.2164306640625</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.604434967041016</gco:Decimal>
+                        <gco:Decimal>44.195377349853516</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>46.10731887817383</gco:Decimal>
+                        <gco:Decimal>45.00105285644531</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d769e71">
-                           <gml:beginPosition>2015-01-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-03-06T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d789e59">
+                           <gml:beginPosition>2015-02-10T22:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2015-02-12T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>-0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>-273</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
             </gmd:EX_Extent>
          </srv:extent>
          <srv:couplingType>
@@ -501,7 +432,7 @@
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/dodsC/FVCOM/SLRFVM-Latest-Forecast.nc</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
                         <gco:CharacterString>OPeNDAP</gco:CharacterString>
@@ -520,11 +451,11 @@
       </srv:SV_ServiceIdentification>
    </gmd:identificationInfo>
    <gmd:identificationInfo>
-      <srv:SV_ServiceIdentification id="OGC-WMS">
+      <srv:SV_ServiceIdentification id="THREDDS_HTTP_Service">
          <gmd:citation>
             <gmd:CI_Citation>
                <gmd:title>
-                  <gco:CharacterString>GLCFS - Lake Michigan - Forecast - 3D</gco:CharacterString>
+                  <gco:CharacterString>SLRFVM - Upper St. Lawrence River (FVCOM) - Latest Forecast</gco:CharacterString>
                </gmd:title>
                <gmd:date>
                   <gmd:CI_Date>
@@ -559,17 +490,17 @@
                <gmd:citedResponsibleParty>
                   <gmd:CI_ResponsibleParty>
                      <gmd:individualName>
-                        <gco:CharacterString>Dr. Dave Schwab</gco:CharacterString>
+                        <gco:CharacterString>Dr. Eric J. Anderson</gco:CharacterString>
                      </gmd:individualName>
                      <gmd:organisationName>
-                        <gco:CharacterString>NOAA/GLERL</gco:CharacterString>
+                        <gco:CharacterString>School for Marine Science and Technology</gco:CharacterString>
                      </gmd:organisationName>
                      <gmd:contactInfo>
                         <gmd:CI_Contact>
                            <gmd:address>
                               <gmd:CI_Address>
                                  <gmd:electronicMailAddress>
-                                    <gco:CharacterString>david.schwab@noaa.gov</gco:CharacterString>
+                                    <gco:CharacterString>eric.j.anderson@noaa.gov</gco:CharacterString>
                                  </gmd:electronicMailAddress>
                               </gmd:CI_Address>
                            </gmd:address>
@@ -595,10 +526,10 @@
             </gmd:CI_Citation>
          </gmd:citation>
          <gmd:abstract>
-            <gco:CharacterString>Aggregation of the 3D Forecast output for Lake Michigan from GLCFS</gco:CharacterString>
+            <gco:CharacterString>Latest Forecast for SLRFVM - Upper St. Lawrence River (FVCOM) run out of GLERL</gco:CharacterString>
          </gmd:abstract>
          <srv:serviceType>
-            <gco:LocalName>Open Geospatial Consortium Web Map Service (WMS)</gco:LocalName>
+            <gco:LocalName>THREDDS HTTP Service</gco:LocalName>
          </srv:serviceType>
          <srv:extent>
             <gmd:EX_Extent>
@@ -608,40 +539,29 @@
                         <gco:Boolean>1</gco:Boolean>
                      </gmd:extentTypeCode>
                      <gmd:westBoundLongitude>
-                        <gco:Decimal>-88.0940170288086</gco:Decimal>
+                        <gco:Decimal>-76.65740966796875</gco:Decimal>
                      </gmd:westBoundLongitude>
                      <gmd:eastBoundLongitude>
-                        <gco:Decimal>-84.72782135009766</gco:Decimal>
+                        <gco:Decimal>285.2164306640625</gco:Decimal>
                      </gmd:eastBoundLongitude>
                      <gmd:southBoundLatitude>
-                        <gco:Decimal>41.604434967041016</gco:Decimal>
+                        <gco:Decimal>44.195377349853516</gco:Decimal>
                      </gmd:southBoundLatitude>
                      <gmd:northBoundLatitude>
-                        <gco:Decimal>46.10731887817383</gco:Decimal>
+                        <gco:Decimal>45.00105285644531</gco:Decimal>
                      </gmd:northBoundLatitude>
                   </gmd:EX_GeographicBoundingBox>
                </gmd:geographicElement>
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent>
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d769e72">
-                           <gml:beginPosition>2015-01-01T15:00:00Z</gml:beginPosition>
-                           <gml:endPosition>2015-03-06T00:00:00Z</gml:endPosition>
+                        <gml:TimePeriod gml:id="d789e60">
+                           <gml:beginPosition>2015-02-10T22:01:52Z</gml:beginPosition>
+                           <gml:endPosition>2015-02-12T21:00:00Z</gml:endPosition>
                         </gml:TimePeriod>
                      </gmd:extent>
                   </gmd:EX_TemporalExtent>
                </gmd:temporalElement>
-               <gmd:verticalElement>
-                  <gmd:EX_VerticalExtent>
-                     <gmd:minimumValue>
-                        <gco:Real>-0</gco:Real>
-                     </gmd:minimumValue>
-                     <gmd:maximumValue>
-                        <gco:Real>-273</gco:Real>
-                     </gmd:maximumValue>
-                     <gmd:verticalCRS gco:nilReason="missing"/>
-                  </gmd:EX_VerticalExtent>
-               </gmd:verticalElement>
             </gmd:EX_Extent>
          </srv:extent>
          <srv:couplingType>
@@ -650,19 +570,19 @@
          <srv:containsOperations>
             <srv:SV_OperationMetadata>
                <srv:operationName>
-                  <gco:CharacterString>GetCapabilities</gco:CharacterString>
+                  <gco:CharacterString>FileHTTPService</gco:CharacterString>
                </srv:operationName>
                <srv:DCP gco:nilReason="unknown"/>
                <srv:connectPoint>
                   <gmd:CI_OnlineResource>
                      <gmd:linkage>
-                        <gmd:URL>http://tds.glos.us/thredds/wms/glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd?service=WMS&amp;version=1.3.0&amp;request=GetCapabilities</gmd:URL>
+                        <gmd:URL>http://tds.glos.us/thredds/fileServer/FVCOM/SLRFVM-Latest-Forecast.nc</gmd:URL>
                      </gmd:linkage>
                      <gmd:name>
-                        <gco:CharacterString>OGC-WMS</gco:CharacterString>
+                        <gco:CharacterString>THREDDS_HTTP_Service</gco:CharacterString>
                      </gmd:name>
                      <gmd:description>
-                        <gco:CharacterString>Open Geospatial Consortium Web Map Service (WMS)</gco:CharacterString>
+                        <gco:CharacterString>THREDDS HTTP Service</gco:CharacterString>
                      </gmd:description>
                      <gmd:function>
                         <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
@@ -683,7 +603,49 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>d3d</gco:CharacterString>
+                        <gco:CharacterString>nprocs</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>number of processors</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>partition</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>partition</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>x</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -695,7 +657,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>3D Depth at Nodes (depth_at_nodes)</gco:CharacterString>
+                  <gco:CharacterString>nodal x-coordinate</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
@@ -705,7 +667,7 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>temp</gco:CharacterString>
+                        <gco:CharacterString>y</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
@@ -717,9 +679,290 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Temperature (sea_water_temperature)</gco:CharacterString>
+                  <gco:CharacterString>nodal y-coordinate</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#Celsius"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>xc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>zonal x-coordinate</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>yc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>zonal y-coordinate</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>lonc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>zonal longitude (longitude)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_east"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>latc</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>zonal latitude (latitude)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_north"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>siglay</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Sigma Layers (ocean_sigma/general_coordinate)</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>siglev</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Sigma Levels (ocean_sigma/general_coordinate)</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>h</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Bathymetry (sea_floor_depth_below_geoid)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>nv</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>nodes surrounding element</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>iint</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>internal mode iteration number</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Itime</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString/>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Itime2</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString/>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#msec%20since%2000%3A00%3A00"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>Times</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>char</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString/>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>zeta</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>float</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Water Surface Elevation (sea_surface_height_above_geoid)</gco:CharacterString>
+               </gmd:descriptor>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -739,9 +982,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Eastward Water Velocity (eastward_sea_water_velocity)</gco:CharacterString>
+                  <gco:CharacterString>Eastward Water Velocity</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters%20s-1"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -761,9 +1004,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Northward Water Velocity (northward_sea_water_velocity)</gco:CharacterString>
+                  <gco:CharacterString>Northward Water Velocity</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m%2Fs"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters%20s-1"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -771,21 +1014,20 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>eta</gco:CharacterString>
+                        <gco:CharacterString>wet_nodes</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
+                              <gco:CharacterString>int</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString/>
+                  <gco:CharacterString>Wet_Nodes</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#m"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -793,21 +1035,83 @@
                <gmd:sequenceIdentifier>
                   <gco:MemberName>
                      <gco:aName>
-                        <gco:CharacterString>time_offset</gco:CharacterString>
+                        <gco:CharacterString>wet_cells</gco:CharacterString>
                      </gco:aName>
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
+                              <gco:CharacterString>int</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>offset hour from start of run for coordinate = time (forecast_period)</gco:CharacterString>
+                  <gco:CharacterString>Wet_Cells</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-01T12%3A00%3A00Z"/>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_nodes_prev_int</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Nodes_At_Previous_Internal_Step</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_cells_prev_int</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Cells_At_Previous_Internal_Step</gco:CharacterString>
+               </gmd:descriptor>
+            </gmd:MD_Band>
+         </gmd:dimension>
+         <gmd:dimension>
+            <gmd:MD_Band>
+               <gmd:sequenceIdentifier>
+                  <gco:MemberName>
+                     <gco:aName>
+                        <gco:CharacterString>wet_cells_prev_ext</gco:CharacterString>
+                     </gco:aName>
+                     <gco:attributeType>
+                        <gco:TypeName>
+                           <gco:aName>
+                              <gco:CharacterString>int</gco:CharacterString>
+                           </gco:aName>
+                        </gco:TypeName>
+                     </gco:attributeType>
+                  </gco:MemberName>
+               </gmd:sequenceIdentifier>
+               <gmd:descriptor>
+                  <gco:CharacterString>Wet_Cells_At_Previous_External_Step</gco:CharacterString>
+               </gmd:descriptor>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -827,7 +1131,7 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Longitude (longitude)</gco:CharacterString>
+                  <gco:CharacterString>nodal longitude (longitude)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_east"/>
             </gmd:MD_Band>
@@ -849,53 +1153,9 @@
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Latitude (latitude)</gco:CharacterString>
+                  <gco:CharacterString>nodal latitude (latitude)</gco:CharacterString>
                </gmd:descriptor>
                <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#degrees_north"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>depth</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Bathymetry (depth)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#meters"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>sigma</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>float</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>Sigma Stretched Vertical Coordinate at Nodes (ocean_sigma_coordinate)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#1"/>
             </gmd:MD_Band>
          </gmd:dimension>
          <gmd:dimension>
@@ -908,38 +1168,16 @@
                      <gco:attributeType>
                         <gco:TypeName>
                            <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
+                              <gco:CharacterString>float</gco:CharacterString>
                            </gco:aName>
                         </gco:TypeName>
                      </gco:attributeType>
                   </gco:MemberName>
                </gmd:sequenceIdentifier>
                <gmd:descriptor>
-                  <gco:CharacterString>Forecast time for ForecastModelRunCollection (time)</gco:CharacterString>
+                  <gco:CharacterString>time</gco:CharacterString>
                </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-01T12%3A00%3A00Z"/>
-            </gmd:MD_Band>
-         </gmd:dimension>
-         <gmd:dimension>
-            <gmd:MD_Band>
-               <gmd:sequenceIdentifier>
-                  <gco:MemberName>
-                     <gco:aName>
-                        <gco:CharacterString>time_run</gco:CharacterString>
-                     </gco:aName>
-                     <gco:attributeType>
-                        <gco:TypeName>
-                           <gco:aName>
-                              <gco:CharacterString>double</gco:CharacterString>
-                           </gco:aName>
-                        </gco:TypeName>
-                     </gco:attributeType>
-                  </gco:MemberName>
-               </gmd:sequenceIdentifier>
-               <gmd:descriptor>
-                  <gco:CharacterString>run times for coordinate = time (forecast_reference_time)</gco:CharacterString>
-               </gmd:descriptor>
-               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#hours%20since%202015-01-01T12%3A00%3A00Z"/>
+               <gmd:units xlink:href="http://example.org/someUnitsDictionary.xml#days%20since%201858-11-17%2000%3A00%3A00"/>
             </gmd:MD_Band>
          </gmd:dimension>
       </gmi:MI_CoverageDescription>
@@ -983,7 +1221,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://tds.glos.us/thredds/dodsC/glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd.html</gmd:URL>
+                              <gmd:URL>http://tds.glos.us/thredds/dodsC/FVCOM/SLRFVM-Latest-Forecast.nc.html</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>File Information</gco:CharacterString>
@@ -1003,7 +1241,7 @@
                      <gmd:onLine>
                         <gmd:CI_OnlineResource>
                            <gmd:linkage>
-                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/glos/glcfs/michigan/fcfmrc-3d/Lake_Michigan_-_3D_best.ncd</gmd:URL>
+                              <gmd:URL>http://www.ncdc.noaa.gov/oa/wct/wct-jnlp-beta.php?singlefile=http://tds.glos.us/thredds/dodsC/FVCOM/SLRFVM-Latest-Forecast.nc</gmd:URL>
                            </gmd:linkage>
                            <gmd:name>
                               <gco:CharacterString>Viewer Information</gco:CharacterString>
@@ -1034,7 +1272,8 @@
          <gmd:lineage>
             <gmd:LI_Lineage>
                <gmd:statement>
-                  <gco:CharacterString>FMRC Best Dataset</gco:CharacterString>
+                  <gco:CharacterString>Wed Feb 11 07:12:06 2015: ncap2 -O -s nprocs=nprocs;partition=partition;x=x;y=y;where(lon&gt;0.0) lon=lon-360; usl_0001.nc usl_0001.nc
+model started at: 11/02/2015   00:17</gco:CharacterString>
                </gmd:statement>
             </gmd:LI_Lineage>
          </gmd:lineage>
