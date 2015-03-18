@@ -69,7 +69,7 @@
       </gmd:CI_ResponsibleParty>
   </gmd:contact>
   <gmd:dateStamp xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
-      <gco:DateTime>2015-03-18T20:47:32.887512</gco:DateTime></gmd:dateStamp>
+      <gco:DateTime>2015-03-18T21:21:11.516157</gco:DateTime></gmd:dateStamp>
   <gmd:metadataStandardName xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
       <gco:CharacterString>ISO 19115</gco:CharacterString>
   </gmd:metadataStandardName>
