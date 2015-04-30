@@ -551,7 +551,7 @@
                <gmd:temporalElement>
                   <gmd:EX_TemporalExtent id="boundingTemporalExtent">
                      <gmd:extent>
-                        <gml:TimePeriod gml:id="d111827">
+                        <gml:TimePeriod gml:id="d115233">
                            <gml:description>seconds</gml:description>
                            <gml:beginPosition>2012-10-06T00:22:46Z</gml:beginPosition>
                            <gml:endPosition>2012-10-24T15:48:10Z</gml:endPosition>
